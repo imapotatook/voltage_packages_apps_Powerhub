@@ -70,11 +70,6 @@
 
     </PreferenceCategory>
 
- <!--  <PreferenceCategory
-        android:title="@string/qs_category">
-
-    </PreferenceCategory>
-
         <com.power.hub.preferences.SystemSettingSwitchPreference
         android:key="status_bar_brightness_control"
         android:title="@string/status_bar_toggle_brightness"

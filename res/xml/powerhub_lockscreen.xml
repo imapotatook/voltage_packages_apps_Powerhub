@@ -60,6 +60,7 @@
 
     </PreferenceCategory>
 
+
     <Preference
         android:title="@string/weather_title"
         android:key="weather_option"
@@ -78,25 +79,13 @@
         android:entries="@array/screen_off_animation_entries"
         android:entryValues="@array/screen_off_animation_values"
         android:summary="%s"
-        android:defaultValue="0" />
-
+        android:defaultValue="0" /> 
+  
     <com.power.hub.preferences.SystemSettingSwitchPreference
         android:key="enable_ripple_effect"
         android:title="@string/enable_fingerprint_ripple_effect_title"
         android:summary="@string/enable_fingerprint_ripple_effect_summary"
         android:defaultValue="true" />
-
-    <com.power.hub.preferences.SystemSettingSwitchPreference
-            android:key="hide_lockscreen_status_bar"
-            android:title="@string/hide_lockscreen_status_bar_title"
-            android:summary="@string/hide_lockscreen_status_bar_summary"
-            android:defaultValue="true" />
-
-    <com.power.hub.preferences.SecureSettingSwitchPreference
-        android:key="pulse_on_new_tracks"
-        android:title="@string/pulse_on_new_tracks_title"
-        android:summary="@string/pulse_on_new_tracks_summary"
-        android:defaultValue="false" />
 
     <PreferenceCategory
         android:key="lockscreen_media_art_options"
